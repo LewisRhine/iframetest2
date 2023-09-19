@@ -1,7 +1,7 @@
 const cookie = document.cookie
 
 document.getElementById('cookieLine').textContent = cookie
-
+console.log('test log')
 window.addEventListener(
     "message",
     (event) => {
@@ -10,3 +10,5 @@ window.addEventListener(
     },
     false,
 );
+
+window.postMessage('this is a test')
