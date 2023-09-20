@@ -54,7 +54,6 @@ var requestOptions = {
     method: 'POST',
     headers: myHeaders,
     body: raw,
-    mode: 'no-cors',
 }
 
 fetch(
